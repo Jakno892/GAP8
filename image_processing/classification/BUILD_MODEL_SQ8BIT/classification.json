@@ -1,0 +1,12 @@
+{
+  "history": [
+    "set log_level INFO",
+    "open BUILD_MODEL_SQ8BIT/classification.tflite --load_quantization",
+    "set debug true",
+    "adjust",
+    "fusions --scale8"
+  ],
+  "stats": [
+    null
+  ]
+}
